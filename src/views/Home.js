@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
@@ -8,6 +9,7 @@ function Home() {
       <Navbar></Navbar>
       <div className="flex flex-row h-full relative">
         <Sidebar></Sidebar>
+        <Main></Main>
       </div>
     </div>
   );
